@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>cv-form</title>
+	</head>
+	<body>
+		<h1 style="text-align: center; color: red;"> Welcome to our site :)</h1>
+
+		<section class="personal info">
+			<fieldset id="personal info"><legend><strong>Personal Information</strong></legend>
+				<form method="post" onautocomplete="on">
+					<p><label>FirstName:
+						<input type="text" id="FirstName" placeholder="FirstName">
+					</label></p>
+
+					<p><label>LastName:
+						<input type="text" id="LastName" placeholder="LastName">
+					</label></p>
+
+					<p><label>Email:
+						<input type="email" id="email" placeholder="@gmail.com" >
+					</label></p>
+
+					<p><label for="txtlist">Birth month:
+						<input type="text" id="txtlist" placeholder="select a month"  list="month"/>
+						<datalist id="month">
+							<option value="January"></option>
+							<option value="February"></option>
+							<option value="march"></option>
+							<option value="april"></option>
+							<option value="May"></option>
+							<option value="Joune"></option>
+							<option value="july"> </option>
+							<option value="August"> </option>
+							<option value="September"> </option>
+							<option value="october"></option>
+							<option value="november"> </option>
+							<option value="December"> </option>
+						</datalist>
+					</label></p>
+
+					<p> <label for="avatar">select your picture:
+               			<input type="file"
+               			 id="avatar" name="avatar"
+              			 accept="image/png, image/jpeg" />
+
+              			 </label>
+              	    </p> 
+
+
+              	    <niv>
+              	    <p> Go to  <a href="#education"><button type="button" style="color: red"> Educationl</button></a>
+
+              	    <a href="#contact"><button type="button" style="color: red"> contact</button></a>
+
+              	    <a href="#food"><button type="button" style="color: red"> Food</button></a>
+
+              	    <a href="#news"><button type="button" style="color: red"> News</button></a>
+              	    </p>
+              	    </niv>
+              			 
+				</form>
+			</fieldset>
+		</section>
+
+		<section class="education">
+		<fieldset id="education"><legend><strong>Educational</strong></legend>
+			<form method="post" onautocomplete="on">
+
+					<p><label>Primry school:
+						<input type="text" id="school"  >
+					</label></p>
+
+
+					<p><label>University:
+						<input type="text" id="University">
+					</label></p>
+
+					<p><label>Specialization:
+						<input type="text" id="Specialization">
+					</label></p>
+
+					<p><label>Level:
+						<input type="number" id="Level">
+					</label></p>
+
+					<niv>
+              	    <p> Go to  <a href="#personal info"><button type="button" style="color: red"> Personal Information</button></a>
+
+              	    <a href="#contact"><button type="button" style="color: red"> contact</button></a>
+
+              	    <a href="#food"><button type="button" style="color: red"> Food</button></a>
+
+              	    <a href="#news"><button type="button" style="color: red"> News</button></a>
+              	    </p>
+              	    </niv>
+
+				</form>
+			</fieldset>
+		</section>
+
+		<section class="contact">
+			<fieldset id="contact"><legend><strong>contact us</strong></legend>
+				<form method="post" onautocomplete="on">
+					<p><label>phone:
+						<input type="number" name="phone">
+					</label> </p>
+
+					<p><label>Adress:
+						<input type="text" name="Adress">
+					</label> </p>
+
+					<niv>
+              	    <p> Go to  <a href="#personal info"><button type="button" style="color: red"> Personal Information</button></a>
+
+              	    <a href="#education"><button type="button" style="color: red"> Educational </button></a>
+
+              	    <a href="#food"><button type="button" style="color: red"> Food</button></a>
+
+              	    <a href="#news"><button type="button" style="color: red"> News</button></a>
+              	    </p>
+              	    </niv>
+ 
+
+				</form>
+		</fieldset>
+			
+		</section>
+
+		<section class="food">
+			<fieldset id="food"><legend><strong>Favorite Food</strong></legend>
+				<form method="post" onautocomplete="on">
+					<p> <label> What is your favorite food? <br>
+ 						<textarea name="about you" cols="36" rows="10"></textarea>
+					</label>
+
+					<niv>
+              	    <p> Go to  <a href="#personal info"><button type="button" style="color: red">Personal Information </button></a>
+
+              	    <a href="#contact"><button type="button" style="color: red"> contact</button></a>
+
+              	    <a href="#education"><button type="button" style="color: red"> Educationl</button></a>
+
+              	    <a href="#news"><button type="button" style="color: red"> News</button></a>
+              	    </p>
+              	    </niv>
+				</form>
+			</fieldset>
+		</section>
+
+		<section class="news">
+			<fieldset id="news"><legend><strong>Favorite news channel</strong></legend>
+				<form method="post" onautocomplete="on">
+					<p> <label> What is your favorite news channel? <br>
+ 						<textarea name="about you" cols="36" rows="10"></textarea>
+					</label>
+
+					<niv>
+              	    <p> Go to  <a href="#personal info"><button type="button" style="color: red">Personal Information </button></a>
+
+              	    <a href="#contact"><button type="button" style="color: red"> contact</button></a>
+
+              	    <a href="#education"><button type="button" style="color: red"> Educationl</button></a>
+
+              	    <a href="#food"><button type="button" style="color: red"> Food</button></a>
+              	    </p>
+              	    </niv>
+				</form>
+			</fieldset>
+		</section>
+
+
+       
+
+
+	</body>
+	<footer> <h3 style="text-align: center; color: black;"> Thank you :)</h3>
+	</footer>
+
+</html>
